@@ -1,0 +1,175 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	color: yellow;
+	font-family: 'Pathway Gothic One', sans-serif; 
+	margin: 0; 
+	padding: 0;
+	background-image: url("https://cdn.mos.cms.futurecdn.net/rXQiLcfc89vp3EbYQ58ERH-1200-80.jpeg");
+	background-size: 2000px 1000px;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;padding-left: 10px;
+	overflow: hidden;
+	}
+
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+
+abbr {
+	border-bottom: none;
+	}
+
+/* specific divs */
+
+.page-wrapper { 
+	padding: 0 500px 0 500px; 
+	margin: 0; 
+	position: relative;
+	transform: perspective(250px) rotateX(15deg);
+	animation: scrollCrawl 300s linear;
+	font-size: 10px;
+	}
+/*Animation made to scroll crawl the text*/
+@keyframes scrollCrawl {
+	0%{
+		transform: perspective(250px) rotateX(20deg) translateY(680px);
+	}
+
+	50% {
+	}
+
+	100% {
+		transform: perspective(250px) rotateX(20deg) translateY(-4000px);
+	}
+	}
+/*All headers and classes for paragraphs*/
+header h1 { 
+	text-align: center;
+	color: yellow;
+	}
+	
+header h2 { 
+	color: yellow;
+	text-align: center;
+	}
+	
+header {
+	padding-top: 20px;
+	height: 87px;
+	}
+s
+.summary {
+	color: yellow;
+	text-align: center;
+	padding-top: 10px;
+	}
+	
+.summary p {
+	color: yellow;
+	text-align: center;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+/*All side classes used in the side menu*/
+.sidebar {
+	margin-left: 600px; 
+	padding-top: 10px;
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	margin: 0px 350px 0px 0px;
+	}
+
+.sidebar .wrapper { 
+	font: 10px; 
+	font-family: 'Pathway Gothic One', sans-serif; 
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 130px; 
+	}
+	
+.sidebar h3.select { 
+	color: yellow;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 13px;
+	}
+
+.sidebar h3.archives { 
+	color: yellow;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 13px;
+	}
+
+.sidebar h3.resources { 
+	color: yellow;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 13px;
+	}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+
+.sidebar li a:link {
+	color: #988F5E;
+	}
+
+.sidebar li a:visited {
+	color: #B3AE94;
+	}
