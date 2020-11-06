@@ -1,4 +1,3 @@
-<script language = 'english'></script>
 //Heads or Tail selections
 const buttons = document.querySelectorAll('button');
 //initiate values
