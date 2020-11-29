@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <!--link to css doc-->
+    <link rel="stylesheet" href="FinalProject.css">
+    <title>Where is the ISS???</title>
+    <!--Link to css libray-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <!--Link to js libray-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+    <body>
+        <!--intro div to help with formating-->
+        <div class ="intro">
+            <h1>Where is the International Space Station?</h1> 
+            
+            <p>Latitude: <span id = "lat">----</span>°</p>
+            <p>Longitude: <span id = "long">----</span>°</p>
+            <p>Velocity: <span id = "vel">----</span> Mph</p>
+            <!--id for the location of the map-->
+            <div id="map"></div>
+            <!--break-->
+            <br>
+            
+            <p>Click the button to find the latitude, longitude, and velocity of the International Space Station.</p>
+            <!--break-->
+            <br>
+            <!--button to call the function that reloads the page-->
+            <button onclick="issLocation()">Click to Update</button>
+        </div>
+            <!--linking the js file-->
+            <script src="FinalProject.js"></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+html {
+	margin: 0;
+	padding: 0;
+    }
+/*formats the space background image*/
+body {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/rXQiLcfc89vp3EbYQ58ERH-1200-80.jpeg");
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    color: rgb(221, 221, 221);
+}
+/*formats the main title of the page*/
+h1 {
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+/*foramts the long, lat, and velocity of the ISS*/
+p{
+    font-size: 22px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+/*used to help format the entire doc*/
+.intro{
+    text-align: center;
+}
+/*formats the size and location of the map*/
+#map {
+    height: 500px;
+    width: 50%; 
+    margin: auto;
+}
+/*formats the button to re-load the page*/
+button {
+    background-color: #63b3c9;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    font-family: 'Pathway Gothic One', sans-serif;  
+}
+/*edits the hover effect of the button*/
+button:hover {
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-color: #F68B1F;
+    color: rgb(221, 221, 221);
+    box-shadow: 0 0 10px #FDB813, 0 0 40px #FDB813, 0 0 80px #FDB813;
+}
