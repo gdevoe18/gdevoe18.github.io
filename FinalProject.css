@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
+	padding: 25px;
     color: rgb(221, 221, 221);
 }
 /*formats the main title of the page*/
