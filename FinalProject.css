@@ -7,7 +7,7 @@ body {
     background-image: url("https://cdn.mos.cms.futurecdn.net/rXQiLcfc89vp3EbYQ58ERH-1200-80.jpeg");
     background-size: 2000px 1000px;
     background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
     color: rgb(221, 221, 221);
 }
 /*formats the main title of the page*/
